@@ -10,9 +10,9 @@ Usage :
 
 Dans wsl : 
 
-git clone https://github.com/LeKarimDerradji/create-hardhat-template
+```git clone https://github.com/LeKarimDerradji/create-hardhat-template```
 
-cd create-hardhat-template
+```cd create-hardhat-template```
 
 ```chmod +x hardhat.sh``` 
 
