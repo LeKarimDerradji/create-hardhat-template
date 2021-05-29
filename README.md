@@ -7,7 +7,7 @@ Inspired by : Sofiane Akermoun. @AbsoluteVirtueIV.
 Usage : 
 ```chmod +x hardhat.sh``` 
 
-```./hardhat [name_of_your_project```
+```./hardhat [name_of_your_project]```
 
 When the Hardhat Prompt, select 'Create a sample project'
 
