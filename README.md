@@ -1,8 +1,8 @@
 ## Bash script to instantly create a fully working Hardhat environment from scratch. 
 
-Inspired by : Sofiane Akermoun. @AbsoluteVirtueIV. 
+Inspired by : Sofiane Akermoun. @AbsoluteVirtueXI. 
 
-![](https://shoutslogans.com/wp-content/uploads/2012/04/hard-hat-safety-slogans.gif)
+![](https://picresize.com/images/rsz_11rsz_3c509d2cbcaec1bd392cda976940283cb.jpg)
 
 Usage : 
 ```chmod +x hardhat.sh``` 
