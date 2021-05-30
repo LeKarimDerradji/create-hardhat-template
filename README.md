@@ -18,6 +18,10 @@ Dans wsl :
 
 ```./hardhat [name_of_your_project]```
 
+In Mac : 
+
+```$ /path/to/hardhat.sh /path/to/new/project```
+
 When the Hardhat Prompt, select 'Create a sample project'
 
 Type Enter. 
