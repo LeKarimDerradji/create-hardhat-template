@@ -2,9 +2,8 @@
 mkdir $1
 cd $1
 yarn init -y
-git init
-yarn add hardhat --dev
-npx hardhat 
+
+
 
 yarn add prettier prettier-plugin-solidity solhint eslint eslint-config-standard eslint-plugin-import eslint-plugin-mocha-no-only eslint-plugin-node eslint-plugin-promise eslint-plugin-standard --dev
 
@@ -133,10 +132,11 @@ indent_size = 2
 [*.adoc]
 max_line_length = 0' >> .editorconfig
 
-
+yarn add hardhat --dev
+npx hardhat 
 yarn add @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-solhint --dev
 
-echo '
+echo "
 require('@nomiclabs/hardhat-waffle')
 require('@nomiclabs/hardhat-solhint')
 
@@ -146,10 +146,12 @@ require('@nomiclabs/hardhat-solhint')
 
 module.exports = {
   solidity: '0.8.4',
-}' > hardhat-config.js
+}" > hardhat.config.js
 
 mkdir contracts
 mkdir test
+yarn add @openzeppelin/contracts/
+git init
 
 echo '
 node_modules
