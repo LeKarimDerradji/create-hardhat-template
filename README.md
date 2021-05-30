@@ -16,7 +16,7 @@ Dans wsl :
 
 ```chmod +x hardhat.sh``` 
 
-```./hardhat [name_of_your_project]```
+```$ ./hardhat path/to/[name_of_your_project]```
 
 In Mac : 
 
